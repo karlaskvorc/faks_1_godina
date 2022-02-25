@@ -1,0 +1,14 @@
+Stevilo elementov: 100000
+Cas trajanja (seznam): 6633 mikrosekundi.
+Vsota: 5000050000
+Cas trajanja (vsota seznama): 379 mikrosekundi.
+Cas trajanja (polje): 1403533 mikrosekundi.
+Vsota: 5000050000
+Cas trajanja (vsota polja): 13 mikrosekundi.
+Cas trajanja (polje - konec): 26 mikrosekundi.
+
+Komentar: Najhitreše vstavljanje elementov je vstavljanje na konec polja.
+Potem je vstavljanje v glavo seznama, a najpocasneše je vstavljanje elementov
+na prvo mesto v polju. Najhitreši algoritam za vsotu N elementi je prek vsote
+polja. V polju imamo vec locirana mesta spremna za punjenje z elementima, dok
+z seznamom dinamicno dostopamo do prostora za elemente. 
