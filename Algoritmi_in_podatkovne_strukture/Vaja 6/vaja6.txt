@@ -1,0 +1,56 @@
+Vsi rezultati so v mikrosekundama.
+
+SELECTION SORT
+Nakljucno polje
+10000:	184082
+20000:	708387
+30000:	1580644
+40000:	2801474
+50000:	4371693
+
+Narascajoce polje:
+10000:	183422
+20000:	707135
+30000:	1575448
+40000:	2791238
+50000:	4353658
+
+QS BREZ MEDIANE
+Nakljucno polje
+10000:	5741
+20000:	11996
+30000:	18425
+40000:	24977
+50000:	32085
+
+Narascajoce polje
+10000:	25815
+20000:	102153
+30000:	233747
+40000:	413535
+50000:	665708
+
+QS S MEDIANOM
+Nakljucno
+10000:	6582
+20000:	13481
+30000:	20737
+40000:	28009
+50000:	36022
+
+Narascajoce polje
+10000:	13374
+20000:	11996
+30000:	52043
+40000:	208196
+50000:	325253
+
+Kaj se zgodi pri hitrem urejanju brez mediane 1000000 narašcajocih elementov?
+Potrebno je jako cuda casa ker je to najhujsi slucaj za quicksort brez mediane.
+Ali se hitro urejanje brez mediane padajocega zaporedja obnaša podobno kot pri narašcajocem zaporedju?
+Isto ker su oba zaporedja sorterana in je to najhujsi slucaj pre quicksortu.
+Kaj se zgodi, ce na zacetku znotraj funkcije HITRO_UREDI definirate dodano polje (double x[10000];x[0]=0;) in uredite 10000 narašcajocih elementov s hitro uredi brez mediane?
+Tokrat prevedite kot debug/razhrošcevanje.
+Program se crasha in nam javi stack-overflow.
+? Kakšen je vzrok? Stack-overflow.
+? Kaj ce urejate samo 10 elementov? Program dela normalno.

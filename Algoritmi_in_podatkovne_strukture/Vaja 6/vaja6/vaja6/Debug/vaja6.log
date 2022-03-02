@@ -1,0 +1,10 @@
+﻿  vaja6.cpp
+c:\00\00 faks\aips\vaja 6\vaja6\vaja6\vaja6.cpp(108): warning C4244: 'argument': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=uint32_t
+          ]
+c:\00\00 faks\aips\vaja 6\vaja6\vaja6\vaja6.cpp(116): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\00\00 faks\aips\vaja 6\vaja6\vaja6\vaja6.cpp(166): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\00\00 faks\aips\vaja 6\vaja6\vaja6\vaja6.cpp(169): warning C4101: 'number': unreferenced local variable
+  vaja6.vcxproj -> C:\00\00 Faks\AIPS\Vaja 6\vaja6\Debug\vaja6.exe
